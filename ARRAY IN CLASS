@@ -1,0 +1,228 @@
+// // #include<iostream>
+// // // using namespace std;
+// // // class SUM{
+// // //     public:
+// // //     int A1[5]={10,20,30,40,50};
+// // //     int A2[5]={10,20,30,40,50};
+// // //     int A3[5];
+// // //     void sum(){
+// // //         for(int i=0; i<5;i++)
+// // //         A3[i]=A1[i]+A2[i];
+    
+// // //     cout<<"A1";
+// // //     for(int i=0; i<5;i++)
+// // //      cout<<A1[i]<<" ";
+// // //     cout<<endl;
+
+// // //     cout<<"A2";
+// // //     for(int i=0; i<5;i++)
+// // //      cout<<A2[i]<<" ";
+// // //     cout<<endl;
+// // //      cout<<"A3";
+// // //     for(int i=0; i<5;i++)
+// // //      cout<<A3[i]<<" ";
+// // //     }
+
+// // //     };
+// // //     int main(){
+// // //         SUM obj;
+// // //         obj.sum();
+// // //         return 0;
+// // //     }
+
+
+
+
+// // #include <iostream>
+// // using namespace std;
+
+// // class SUM {
+// // public:
+// //     int A1[5];  // user input ke liye
+// //     int A2[5];
+// //     int A3[5];
+
+// //     void input() {
+// //         cout << "Enter 5 elements for A1: ";
+// //         for (int i = 0; i < 5; i++)
+// //             cin >> A1[i];
+// //         cout<<endl;
+
+// //         cout << "Enter 5 elements for A2: ";
+// //         for (int i = 0; i < 5; i++)
+// //             cin >> A2[i];
+// //     }
+
+// //     void sum() {
+// //         for (int i = 0; i < 5; i++)
+// //             A3[i] = A1[i] + A2[i];
+// //     }
+
+// //     void display() {
+// //         cout << "\nA1: ";
+// //         for (int i = 0; i < 5; i++)
+// //             cout << A1[i] << " ";
+
+// //         cout << "\nA2: ";
+// //         for (int i = 0; i < 5; i++)
+// //             cout << A2[i] << " ";
+
+// //         cout << "\nA3 (Sum): ";
+// //         for (int i = 0; i < 5; i++)
+// //             cout << A3[i] << " ";
+// //         cout << endl;
+// //     }
+// // };
+
+// // int main() {
+// //     SUM obj;
+
+// //     obj.input();    // user se values lena
+// //     obj.sum();      // sum calculate karna
+// //     obj.display();  // result dikhana
+
+// //     return 0;
+// // }
+
+// // #include<iostream>
+// // using namespace std;
+// // class Array{
+// //     private:
+// //     int A[i];
+// //     int n;
+// //     public:
+
+// // void input(){
+// //     cout<<"enter the index::";
+// //     cin>>n;
+// //     n=A[i];
+  
+    
+// //     }
+
+// //     void show(){
+// //         cout<<"your vlaue is ::";
+// //         for(int i=0;i<5;i++)
+// //         cout<<A[i]<<"  ";
+// //     }
+// // };
+
+// // int main(){
+// //     Array obj;
+// //     obj.input();
+// //     obj.show();
+// //     return 0;
+// // }
+
+
+
+// #include<iostream>
+// using namespace std;
+// class khan{
+//     private:
+//     int A1[4][4];
+//     int A2[4][4];
+//     int A3[4][4];
+//     public:
+//     void input_value(){
+//         cout<<"enter the value of first array::"<<endl;
+//         for(int i=0;i<4;i++){                   
+//             for(int j=0;j<4;j++)
+        
+//     {
+//     cin>>A1[i][j];
+//     }
+// }
+
+
+//     cout<<"enter the value of the A2[]::"<<endl;
+//             for(int i=0;i<4;i++){
+//             for(int j=0;j<4;j++)
+        
+//     {
+//     cin>>A2[i][j];
+//     }
+// }
+//     }
+//     void sum(){
+//         for(int i=0;i<4;i++){
+//             for(int j=0;j<4;j++ )
+//         {
+//         A3[i][j]=A1[i][j]+A2[i][j];
+//     }
+//         }
+//             }
+//     void show(){
+//         cout<<"result of A[3]"<<endl;
+//           for(int i=0;i<4;i++){
+//             for(int j=0;j<4;j++ ){
+//         cout<<A3[i][j]<<"\t";
+//           }
+//           cout<<endl;
+// }
+//     }
+// };
+// int main(){
+//     khan obj;
+//     obj.input_value();
+//     obj.sum();
+//     obj.show();
+//     return 0;
+// }
+
+
+
+// // #include <iostream>
+// // using namespace std;
+
+// // class khan {
+// // private:
+// //     int A1[3][6];
+// //     int A2[3][6];
+// //     int A3[3][6];
+
+// // public:
+// //     void input_value() {
+// //         cout << "Enter values for FIRST array (3 rows x 6 columns):\n";
+// //         for (int i = 0; i < 3; i++) {
+// //             cout << "Row " << i + 1 << ": ";
+// //             for (int j = 0; j < 6; j++) {
+// //                 cin >> A1[i][j];
+// //             }
+// //         }
+
+// //         cout << "\nEnter values for SECOND array (3 rows x 6 columns):\n";
+// //         for (int i = 0; i < 3; i++) {
+// //             cout << "Row " << i + 1 << ": ";
+// //             for (int j = 0; j < 6; j++) {
+// //                 cin >> A2[i][j];
+// //             }
+// //         }
+// //     }
+
+// //     void sum_arrays() {
+// //         for (int i = 0; i < 3; i++) {
+// //             for (int j = 0; j < 6; j++) {
+// //                 A3[i][j] = A1[i][j] + A2[i][j];
+// //             }
+// //         }
+// //     }
+
+// //     void display_result() {
+// //         cout << "\nResultant Array (Sum of Both Arrays):\n";
+// //         for (int i = 0; i < 3; i++) {
+// //             for (int j = 0; j < 6; j++) {
+// //                 cout << A3[i][j] << "\t";
+// //             }
+// //             cout << endl;
+// //         }
+// //     }
+// // };
+
+// // int main() {
+// //     khan obj;
+// //     obj.input_value();
+// //     obj.sum_arrays();
+// //     obj.display_result();
+// //     return 0;
+// // }
