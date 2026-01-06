@@ -1,4 +1,4 @@
-// #include<iostream>
+ // #include<iostream>
 // using namespace std;
 // class node{
 //     public:
@@ -213,5 +213,6 @@ int main(){
     s.insert(50,2);
     s.show();
     return 0;
+
 
 }
